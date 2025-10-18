@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control
+    namespace="ShahzaibPCF"
+    constructor="SelectContactsControl"
+    version="1.0.0"
+    display-name-key="SelectContactsControl"
+    description-key="SelectContactsControl description"
+    control-type="standard">
+
+    <!-- External service usage -->
+    <external-service-usage enabled="false" />
+
+    <!-- Required features -->
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Navigation" required="true" />
+    </feature-usage>
+
+    <!-- Bound property (single-line text example) -->
+    <property name="Property" display-name-key="Property_Display" description-key="Property_Desc" of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <!-- Resources -->
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="CSS/style.css" order="2" />
+    </resources>
+
+  </control>
+</manifest>

@@ -3,8 +3,6 @@ Overview
 
 Power Apps Component Framework (PCF) allows developers to create custom, interactive components for model-driven apps. One common use case is displaying and analyzing contact data. The SelectContactsControl PCF control provides a searchable contacts list, detailed contact view, and interactive charts using Chart.js.
 
-This blog will explain how the control works, its features, and its internal structure, making it easy for developers to replicate or extend for their own dashboards.
-
 Why Use PCF for a Contacts Dashboard?
 
 PCF offers several advantages over standard form components:
